@@ -25,3 +25,7 @@
     </div> <!-- close box div -->
   <% end %>
 </div> <!-- close pins div -->
+
+<div class="center">
+   <%= will_paginate @pins, renderer: BootstrapPagination::Rails %>
+</div>
