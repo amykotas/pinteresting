@@ -12,7 +12,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.0.0.rc1'
 gem 'paperclip', '~> 4.3'
-gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.0'
 gem 'will_paginate', '~> 3.0.5'
 gem 'will_paginate-bootstrap'
@@ -30,4 +29,5 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
+	gem 'aws-sdk', '< 2.0'
 end
